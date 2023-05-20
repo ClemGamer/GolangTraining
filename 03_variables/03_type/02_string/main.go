@@ -15,4 +15,12 @@ func main() {
 	fmt.Println(words, []byte(words))
 
 	fmt.Println()
+	n := 20320
+	fmt.Println(n, string(n), []byte(string(n)))
+
+	fmt.Println()
+	xb := []byte{228, 189, 160}
+	fmt.Println(xb, string(xb), []rune(string(xb)))
+
+	fmt.Println()
 }
