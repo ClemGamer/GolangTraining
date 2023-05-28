@@ -17,3 +17,5 @@ func main() {
 
 // array is not dynamic, should be fixed size when defined an array
 // array is less used in GO, usually use slice which is dynamic
+
+// Arrays in Golang are value types unlike other languages like C, C++, and Java where arrays are reference types.
